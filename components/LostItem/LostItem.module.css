@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eaeaea;
+  border-radius: 7px;
+}
+
+.cardTitle {
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.cardDesc {
+  padding: 6px;
+}

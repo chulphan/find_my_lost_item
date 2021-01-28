@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  border-bottom: 1px solid #eaeaea;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 999;
+}
+
+.header_box {
+  margin: 0 auto;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  height: 80px;
+}
+
+.nav_box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.app_title_span {
+  font-size: 1.4rem;
+}
+
+.search_btn {
+  background-color: rgba(0, 118, 255, 0.9);
+  color: #fff;
+  border: 1px solid rgba(0, 118, 255, 0.9);
+  padding: 0.25rem 1rem;
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 7px;
+}
